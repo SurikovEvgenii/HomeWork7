@@ -18,8 +18,6 @@
 <a href="postuser.jsp?age=27&name=Jerry">User Information GET</a><br>
 <a href="cookie-servlet">Cookie servlet</a>
 
-<p>Attribute 1: ${linksdata[1]}</p>
-<p>Attribute 2: ${linksdata[2]}</p><br><br>
 <p>User-Agent: ${header["User-Agent"]}</p>
 <p>Host: ${header.host}</p><br>
 <p>From cookie: ${cookie.userName.value}</p>
