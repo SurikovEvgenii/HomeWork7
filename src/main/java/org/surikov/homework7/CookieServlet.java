@@ -14,6 +14,6 @@ public class CookieServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Cookie cookie = new Cookie("userName", "Sam");
         resp.addCookie(cookie);
-        req.getRequestDispatcher("/index.jsp").forward(req,resp);
+        resp.sendRedirect("/postuser.jsp");
     }
 }
